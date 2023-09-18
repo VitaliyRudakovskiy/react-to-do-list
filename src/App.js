@@ -1,9 +1,13 @@
 import React from "react";
+import "./styles/App.css";
+import Header from "./components/Header";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='container'>
+      <Header />
+      <TodoList />
     </div>
   );
 }

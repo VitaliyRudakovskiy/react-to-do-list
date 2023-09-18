@@ -1,0 +1,26 @@
+.deleteTodoButton {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #c81a3b;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.itemForm,
+.itemForm label {
+  display: flex;
+  align-items: center;
+}
+
+.itemForm {
+  border: 1px solid grey;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.itemForm label {
+  gap: 20px;
+}
