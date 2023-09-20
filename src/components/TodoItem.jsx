@@ -1,14 +1,19 @@
 import React from "react";
 import classes from "../styles/TodoItem.module.css";
 
-const TodoItem = () => {
+const TodoItem = ({ id, text, handleDeleteNote }) => {
   return (
     <form className={classes.itemForm}>
       <label>
         <input type='checkbox' />
-        <p>Description</p>
+        <p>{text}</p>
       </label>
-      <button className={classes.deleteTodoButton}>Delete</button>
+      <button
+        type='button'
+        className={classes.deleteTodoButton}
+        onClick={() => handleDeleteNote(id)}>
+        Delete
+      </button>
     </form>
   );
 };
