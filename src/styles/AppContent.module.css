@@ -1,0 +1,18 @@
+.todosContainer {
+  background-color: #ecedf6;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.emptyText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #585858;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #dedfe1;
+  width: max-content;
+  height: auto;
+}
