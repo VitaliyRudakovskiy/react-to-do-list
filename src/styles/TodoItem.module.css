@@ -69,3 +69,33 @@
 .icon:hover {
   background-color: #dedfe1;
 }
+
+@media screen and (max-width: 500px) {
+  .itemContainer {
+    padding: 0.1rem 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .todoDetails {
+    gap: 0.4rem;
+  }
+
+  .time {
+    font-size: 0.55rem;
+    margin-top: -0.1rem;
+  }
+
+  .texts {
+    font-size: 0.8rem;
+    text-wrap: wrap;
+  }
+
+  .todoActions {
+    gap: 0.3rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+}

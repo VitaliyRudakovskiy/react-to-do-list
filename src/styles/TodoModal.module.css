@@ -88,3 +88,38 @@
   margin-top: 0.8rem;
   gap: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 1rem 1.5rem;
+  }
+
+  .closeButton {
+    font-size: 1.2rem;
+  }
+
+  .formTitle {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .form label {
+    font-size: 1.1rem;
+  }
+
+  .form input,
+  .form select {
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+  }
+
+  .form select {
+    cursor: pointer;
+  }
+
+  .buttonContainer {
+    margin-top: 0.6rem;
+    gap: 0.6rem;
+  }
+}

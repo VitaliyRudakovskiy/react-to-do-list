@@ -23,3 +23,12 @@ svg {
 .svgBox:hover {
   background-color: #dedfe1;
 }
+
+@media screen and (max-width: 500px) {
+  .svgBox {
+    flex-basis: 15px;
+    flex-shrink: 0;
+    height: 15px;
+    border-radius: 2px;
+  }
+}

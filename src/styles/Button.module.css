@@ -23,3 +23,14 @@
   color: #000000;
   outline: none;
 }
+
+@media screen and (max-width: 500px) {
+  .button {
+    font-size: 0.9rem;
+    padding: 7px 15px;
+  }
+
+  .buttonSelect {
+    padding: 7px;
+  }
+}

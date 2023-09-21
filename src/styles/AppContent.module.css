@@ -16,3 +16,16 @@
   width: max-content;
   height: auto;
 }
+
+@media screen and (max-width: 500px) {
+  .todosContainer {
+    padding: 0.4rem;
+    border-radius: 6px;
+  }
+
+  .emptyText {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 7px;
+  }
+}
