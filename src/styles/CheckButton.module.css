@@ -26,9 +26,9 @@ svg {
 
 @media screen and (max-width: 500px) {
   .svgBox {
-    flex-basis: 15px;
+    flex-basis: 21px;
     flex-shrink: 0;
-    height: 15px;
-    border-radius: 2px;
+    height: 21px;
+    border-radius: 3px;
   }
 }
